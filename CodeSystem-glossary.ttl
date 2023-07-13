@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org/guides/who/smart-immunization/CodeSystem/glossary> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "glossary"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.org/guides/who/smart-immunization/CodeSystem/glossary</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">atc<a name=\"glossary-atc\"> </a></td><td>Anatomical Therapeutic Chemical code (ATC)</td><td>A unique code assigned to a medicine according to the organ or system it works on and how it works.</td></tr><tr><td style=\"white-space:nowrap\">cpg<a name=\"glossary-cpg\"> </a></td><td>Clinical practice guidelines (CPG)</td><td>Clinical practice guidelines are statements that include recommendations intended to optimize patient care that are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options.</td></tr><tr><td style=\"white-space:nowrap\">cql<a name=\"glossary-cql\"> </a></td><td>Clinical Quality Language (CQL)</td><td>This is a HL7 specification for the expression of clinical knowledge that can be used within both the Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM) domains.</td></tr><tr><td style=\"white-space:nowrap\">data-dictionary<a name=\"glossary-data-dictionary\"> </a></td><td>Data dictionary</td><td>A data dictionary defines and describes each variable in a data set, giving you a clear understanding of the indicators you’re working with.</td></tr><tr><td style=\"white-space:nowrap\">data-element<a name=\"glossary-data-element\"> </a></td><td>Data Element</td><td>The fundamental data structure in a data processing system. Any unit of data defined for processing is a data element; for example, ACCOUNT NUMBER, NAME, ADDRESS and CITY.</td></tr><tr><td style=\"white-space:nowrap\">eir<a name=\"glossary-eir\"> </a></td><td>Electronic Immunization Registry (EIR)</td><td>Electronic Immunization Registry are tools that facilitate the monitoring of individual immunization schedules and the storage of individual immunization histories, and, consequently, help enhance the performance of the Expanded Program on Immunization (EPI), in terms of both coverage and efficiency.</td></tr><tr><td style=\"white-space:nowrap\">fhir<a name=\"glossary-fhir\"> </a></td><td>Fast Healthcare Interoperability Resources (FHIR)</td><td>A standard describing data formats and elements and an application programming interface for exchanging electronic health records.</td></tr><tr><td style=\"white-space:nowrap\">ig<a name=\"glossary-ig\"> </a></td><td>Implementation Guide (IG)</td><td>A set of rules about how FHIR resources are used (or should be used) to solve a particular problem, with associated documentation to support and clarify the usage.</td></tr><tr><td style=\"white-space:nowrap\">indicator<a name=\"glossary-indicator\"> </a></td><td>Indicator</td><td>Summary measures that capture relevant information on different attributes and dimensions of health status and performance of a health system.</td></tr><tr><td style=\"white-space:nowrap\">ips<a name=\"glossary-ips\"> </a></td><td>International Patient Summary (IPS)</td><td>An electronic health record extract containing essential healthcare information about a subject of care.</td></tr><tr><td style=\"white-space:nowrap\">snomed<a name=\"glossary-snomed\"> </a></td><td>Systemized Nomenclature of Medicine – Clinical Terms (SNOMED/SNOMED CT)</td><td>SNOMED Clinical Terms is a systematically organized computer-processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.org/guides/who/smart-immunization/CodeSystem/glossary"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Glossary"] ; # 
+  fhir:title [ fhir:v "Glossary"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-07-13T20:19:41+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "World Health Organization (WHO)"] ; # 
+  fhir:description [ fhir:v "Glossary."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "atc" ] ;
+     fhir:display [ fhir:v "Anatomical Therapeutic Chemical code (ATC)" ] ;
+     fhir:definition [ fhir:v "A unique code assigned to a medicine according to the organ or system it works on and how it works." ]
+  ] [
+     fhir:code [ fhir:v "cpg" ] ;
+     fhir:display [ fhir:v "Clinical practice guidelines (CPG)" ] ;
+     fhir:definition [ fhir:v "Clinical practice guidelines are statements that include recommendations intended to optimize patient care that are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options." ]
+  ] [
+     fhir:code [ fhir:v "cql" ] ;
+     fhir:display [ fhir:v "Clinical Quality Language (CQL)" ] ;
+     fhir:definition [ fhir:v "This is a HL7 specification for the expression of clinical knowledge that can be used within both the Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM) domains." ]
+  ] [
+     fhir:code [ fhir:v "data-dictionary" ] ;
+     fhir:display [ fhir:v "Data dictionary" ] ;
+     fhir:definition [ fhir:v "A data dictionary defines and describes each variable in a data set, giving you a clear understanding of the indicators you’re working with." ]
+  ] [
+     fhir:code [ fhir:v "data-element" ] ;
+     fhir:display [ fhir:v "Data Element" ] ;
+     fhir:definition [ fhir:v "The fundamental data structure in a data processing system. Any unit of data defined for processing is a data element; for example, ACCOUNT NUMBER, NAME, ADDRESS and CITY." ]
+  ] [
+     fhir:code [ fhir:v "eir" ] ;
+     fhir:display [ fhir:v "Electronic Immunization Registry (EIR)" ] ;
+     fhir:definition [ fhir:v "Electronic Immunization Registry are tools that facilitate the monitoring of individual immunization schedules and the storage of individual immunization histories, and, consequently, help enhance the performance of the Expanded Program on Immunization (EPI), in terms of both coverage and efficiency." ]
+  ] [
+     fhir:code [ fhir:v "fhir" ] ;
+     fhir:display [ fhir:v "Fast Healthcare Interoperability Resources (FHIR)" ] ;
+     fhir:definition [ fhir:v "A standard describing data formats and elements and an application programming interface for exchanging electronic health records." ]
+  ] [
+     fhir:code [ fhir:v "ig" ] ;
+     fhir:display [ fhir:v "Implementation Guide (IG)" ] ;
+     fhir:definition [ fhir:v "A set of rules about how FHIR resources are used (or should be used) to solve a particular problem, with associated documentation to support and clarify the usage." ]
+  ] [
+     fhir:code [ fhir:v "indicator" ] ;
+     fhir:display [ fhir:v "Indicator" ] ;
+     fhir:definition [ fhir:v "Summary measures that capture relevant information on different attributes and dimensions of health status and performance of a health system." ]
+  ] [
+     fhir:code [ fhir:v "ips" ] ;
+     fhir:display [ fhir:v "International Patient Summary (IPS)" ] ;
+     fhir:definition [ fhir:v "An electronic health record extract containing essential healthcare information about a subject of care." ]
+  ] [
+     fhir:code [ fhir:v "snomed" ] ;
+     fhir:display [ fhir:v "Systemized Nomenclature of Medicine – Clinical Terms (SNOMED/SNOMED CT)" ] ;
+     fhir:definition [ fhir:v "SNOMED Clinical Terms is a systematically organized computer-processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

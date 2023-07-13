@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="glossary"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.org/guides/who/smart-immunization/CodeSystem/glossary</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">atc<a name="glossary-atc"> </a></td><td>Anatomical Therapeutic Chemical code (ATC)</td><td>A unique code assigned to a medicine according to the organ or system it works on and how it works.</td></tr><tr><td style="white-space:nowrap">cpg<a name="glossary-cpg"> </a></td><td>Clinical practice guidelines (CPG)</td><td>Clinical practice guidelines are statements that include recommendations intended to optimize patient care that are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options.</td></tr><tr><td style="white-space:nowrap">cql<a name="glossary-cql"> </a></td><td>Clinical Quality Language (CQL)</td><td>This is a HL7 specification for the expression of clinical knowledge that can be used within both the Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM) domains.</td></tr><tr><td style="white-space:nowrap">data-dictionary<a name="glossary-data-dictionary"> </a></td><td>Data dictionary</td><td>A data dictionary defines and describes each variable in a data set, giving you a clear understanding of the indicators you’re working with.</td></tr><tr><td style="white-space:nowrap">data-element<a name="glossary-data-element"> </a></td><td>Data Element</td><td>The fundamental data structure in a data processing system. Any unit of data defined for processing is a data element; for example, ACCOUNT NUMBER, NAME, ADDRESS and CITY.</td></tr><tr><td style="white-space:nowrap">eir<a name="glossary-eir"> </a></td><td>Electronic Immunization Registry (EIR)</td><td>Electronic Immunization Registry are tools that facilitate the monitoring of individual immunization schedules and the storage of individual immunization histories, and, consequently, help enhance the performance of the Expanded Program on Immunization (EPI), in terms of both coverage and efficiency.</td></tr><tr><td style="white-space:nowrap">fhir<a name="glossary-fhir"> </a></td><td>Fast Healthcare Interoperability Resources (FHIR)</td><td>A standard describing data formats and elements and an application programming interface for exchanging electronic health records.</td></tr><tr><td style="white-space:nowrap">ig<a name="glossary-ig"> </a></td><td>Implementation Guide (IG)</td><td>A set of rules about how FHIR resources are used (or should be used) to solve a particular problem, with associated documentation to support and clarify the usage.</td></tr><tr><td style="white-space:nowrap">indicator<a name="glossary-indicator"> </a></td><td>Indicator</td><td>Summary measures that capture relevant information on different attributes and dimensions of health status and performance of a health system.</td></tr><tr><td style="white-space:nowrap">ips<a name="glossary-ips"> </a></td><td>International Patient Summary (IPS)</td><td>An electronic health record extract containing essential healthcare information about a subject of care.</td></tr><tr><td style="white-space:nowrap">snomed<a name="glossary-snomed"> </a></td><td>Systemized Nomenclature of Medicine – Clinical Terms (SNOMED/SNOMED CT)</td><td>SNOMED Clinical Terms is a systematically organized computer-processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting.</td></tr></table></div>
+  </text>
+  <url value="http://fhir.org/guides/who/smart-immunization/CodeSystem/glossary"/>
+  <version value="0.1.0"/>
+  <name value="Glossary"/>
+  <title value="Glossary"/>
+  <status value="draft"/>
+  <date value="2023-07-13T20:19:41+00:00"/>
+  <publisher value="World Health Organization (WHO)"/>
+  <description value="Glossary."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="atc"/>
+    <display value="Anatomical Therapeutic Chemical code (ATC)"/>
+    <definition value="A unique code assigned to a medicine according to the organ or system it works on and how it works."/>
+  </concept>
+  <concept>
+    <code value="cpg"/>
+    <display value="Clinical practice guidelines (CPG)"/>
+    <definition value="Clinical practice guidelines are statements that include recommendations intended to optimize patient care that are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options."/>
+  </concept>
+  <concept>
+    <code value="cql"/>
+    <display value="Clinical Quality Language (CQL)"/>
+    <definition value="This is a HL7 specification for the expression of clinical knowledge that can be used within both the Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM) domains."/>
+  </concept>
+  <concept>
+    <code value="data-dictionary"/>
+    <display value="Data dictionary"/>
+    <definition value="A data dictionary defines and describes each variable in a data set, giving you a clear understanding of the indicators you’re working with."/>
+  </concept>
+  <concept>
+    <code value="data-element"/>
+    <display value="Data Element"/>
+    <definition value="The fundamental data structure in a data processing system. Any unit of data defined for processing is a data element; for example, ACCOUNT NUMBER, NAME, ADDRESS and CITY."/>
+  </concept>
+  <concept>
+    <code value="eir"/>
+    <display value="Electronic Immunization Registry (EIR)"/>
+    <definition value="Electronic Immunization Registry are tools that facilitate the monitoring of individual immunization schedules and the storage of individual immunization histories, and, consequently, help enhance the performance of the Expanded Program on Immunization (EPI), in terms of both coverage and efficiency."/>
+  </concept>
+  <concept>
+    <code value="fhir"/>
+    <display value="Fast Healthcare Interoperability Resources (FHIR)"/>
+    <definition value="A standard describing data formats and elements and an application programming interface for exchanging electronic health records."/>
+  </concept>
+  <concept>
+    <code value="ig"/>
+    <display value="Implementation Guide (IG)"/>
+    <definition value="A set of rules about how FHIR resources are used (or should be used) to solve a particular problem, with associated documentation to support and clarify the usage."/>
+  </concept>
+  <concept>
+    <code value="indicator"/>
+    <display value="Indicator"/>
+    <definition value="Summary measures that capture relevant information on different attributes and dimensions of health status and performance of a health system."/>
+  </concept>
+  <concept>
+    <code value="ips"/>
+    <display value="International Patient Summary (IPS)"/>
+    <definition value="An electronic health record extract containing essential healthcare information about a subject of care."/>
+  </concept>
+  <concept>
+    <code value="snomed"/>
+    <display value="Systemized Nomenclature of Medicine – Clinical Terms (SNOMED/SNOMED CT)"/>
+    <definition value="SNOMED Clinical Terms is a systematically organized computer-processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting."/>
+  </concept>
+</CodeSystem>
