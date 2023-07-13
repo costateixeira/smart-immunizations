@@ -17,3 +17,4 @@ Description: "Glossary."
 * #indicator "Indicator" "Summary measures that capture relevant information on different attributes and dimensions of health status and performance of a health system."
 * #ips "International Patient Summary (IPS)" "An electronic health record extract containing essential healthcare information about a subject of care."
 * #snomed "Systemized Nomenclature of Medicine – Clinical Terms (SNOMED/SNOMED CT)" "SNOMED Clinical Terms is a systematically organized computer-processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting."
+ 
